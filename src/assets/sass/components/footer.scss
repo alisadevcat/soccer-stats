@@ -1,0 +1,9 @@
+.page-footer {
+flex-shrink: 0;
+
+  .page-footer__copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

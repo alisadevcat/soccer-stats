@@ -1,0 +1,17 @@
+.pagination {
+  list-style-type: none;
+  margin: 1rem;
+
+  .pagination-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+    .pagination-item{
+      display: inline-block;
+    }
+    .page-active {
+      background-color: #4aae9b;
+    }
+  }
+}

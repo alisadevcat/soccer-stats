@@ -1,0 +1,25 @@
+$text-positions: (
+  "left": left,
+  "right": right,
+  "center": center,
+  "justify": justify,
+  "start": start,
+  "end": end,
+);
+
+@each $key, $val in $text-positions{
+  .text-#{$key} {
+    text-align: $val;
+  }
+}
+
+$display-options: (
+  "block": block,
+  "inline-block": inline-block,
+);
+
+@each $key, $val in $display-options{
+  .display-#{$key} {
+    display: $val;
+  }
+}

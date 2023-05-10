@@ -1,0 +1,25 @@
+.navbar {
+  padding: 0.5rem 0;
+
+  .site-nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    .site-nav__logo {
+      padding-left: 1.5rem;
+    }
+    .site-nav__list {
+      display: flex;
+      justify-content: space-around;
+
+      li {
+        margin-left: 1.5rem;
+
+        .active-site-nav__link {
+          color: #4aae9b;
+        }
+      }
+    }
+  }
+}

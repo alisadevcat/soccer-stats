@@ -1,0 +1,19 @@
+.breadcrumbs {
+  padding: 1rem 0;
+
+  .breadcrumbs__list {
+    display: flex;
+    flex-direction: row;
+
+    .breadcrumbs-link {
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    li:not(:first-child)::before {
+      padding: 8px;
+      color: black;
+      content: "/\00a0";
+    }
+  }
+}

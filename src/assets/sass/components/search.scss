@@ -1,0 +1,50 @@
+/* search */
+.site-search {
+  background: #ffffff;
+  margin-top: 1.8rem;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  position: relative;
+  width: 220px;
+  height: 45px;
+  padding-bottom: 1rem;
+  margin-bottom: 0.8rem;
+
+  @include xl {
+    width: 180px;
+    height: 45px;
+  }
+
+  @include md {
+    width: 150px;
+    height: 45px;
+    padding-left: 1rem;
+  }
+
+  .site-search__form {
+    display: grid;
+    grid-template-columns: 1fr 2em;
+
+    .site-search__input {
+      border-radius: 0;
+      border: 1px solid black;
+      padding: 1rem;
+
+      -webkit-transition: background 0.55s ease;
+      -moz-transition: background 0.55s ease;
+      -ms-transition: background 0.55s ease;
+      -o-transition: background 0.55s ease;
+      transition: background 0.55s ease;
+    }
+    .site-search__btn {
+      border: solid 1px transparent;
+      border-radius: 0;
+      cursor: pointer;
+      width: 3rem;
+
+      .site-search__icon {
+        width: 1.5rem;
+      }
+    }
+  }
+}

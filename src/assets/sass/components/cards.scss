@@ -1,0 +1,36 @@
+.team-cards {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0.5rem;
+
+  @include md{
+    grid-template-columns: 1fr 1fr;
+    padding: 1em;
+  }
+  @include sm{
+    grid-template-columns: 1fr;
+    padding: 1em;
+  }
+}
+.competition-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+
+  @include md{
+    grid-template-columns: 1fr 1fr;
+    padding: 1em;
+  }
+
+  @include sm{
+    grid-template-columns: 1fr;
+    padding: 1em;
+  }
+}
+
+.card {
+  border: 1px solid black;
+  padding: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
